@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <title>Coffee | Shop</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-bar">
+        <h1 class="title">Cof<span>fee</span></h1>
+        <p>Coffee Shop</p>
+        <ul class="menu">
+          <li><a href="auth\register.php">Register</a></li>
+          <li><a href="cake.html">PRODUCT</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </div>
+
+      <div class="home">
+        <h1 class="title-1">
+          Good <span>CAKES</span> will always <br />Find the audience
+        </h1>
+        <p>we provide a variety of uniques and Best Coffees</p>
+        <button type="button">Shop Now</button>
+      </div>
+    </div>
+    <script>
+        // Add event listener to the button
+        document.getElementById("shopButton").onclick = function() {
+          // Redirect to product.html
+          window.location.href = "product.html";
+        };
+      </script>
+  </body>
+</html>
